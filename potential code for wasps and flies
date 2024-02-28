@@ -1,0 +1,47 @@
+potential code for wasps and flies
+
+//flies 
+	if(mouseDist < 15){
+		score ++
+		flyX = random(16,windowWidth-16)
+		flyY = random(16, windowHeight-16)
+
+		flyXSpeed = flyXSpeed * 1.1
+		flyYSpeed = flyYSpeed * 1.1
+	}
+
+	//moving flies
+	flyX = flyX + flyXSpeed
+	flyY = flyY + flyYSpeed
+
+	//change direction of fly
+	if(flyX >= windowWidth -15 || flyX <= 15){
+		flyXSpeed = flyXSpeed * -1
+	}
+
+	//wasps 
+	if(waspY >= windowHeight -15 || waspY <= 15){
+		waspYSpeed = waspYSpeed * -1
+	}
+
+	if(mouseDist < 15){
+		score --
+		waspX = random(16,windowWidth-16)
+		waspY = random(16, windowHeight-16)
+
+		waspXSpeed = waspXSpeed * 1.1
+		waspYSpeed = waspYSpeed * 1.1
+	}
+
+	//moving wasp
+	waspX = waspX + waspXSpeed
+	waspY = waspY + waspYSpeed
+
+	//change direction of wasp
+	if(waspX >= windowWidth -15 || waspX <= 15){
+		waspXSpeed = waspXSpeed * -1
+	}
+
+	if(waspY >= windowHeight -15 || waspY <= 15){
+		waspYSpeed = waspYSpeed * -1
+	}
