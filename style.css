@@ -5,3 +5,53 @@ html, body {
 canvas {
   display: block;
 }
+
+.Snapchat {
+  background-image: url('snapchat.png');
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  background-size: 55px 55px;
+}
+
+
+.Twitter{
+  background-image: url('twitter.webp');
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+}
+
+.Safari{
+  background-image: url('safariReal.png');
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+}
+
+.Insta{
+  background-image: url('insta.webp');
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  background-size: 53px 53px;
+}
+
+.iMessage{
+  background-image: url('imessage.webp');
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  background-size: 57px 57px;
+}
+
+.YouTube{
+  background-image: url('youtubelogo.webp');
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+}
+
